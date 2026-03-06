@@ -1192,8 +1192,8 @@ void UIController::handleKeyPress(unsigned int iPad, unsigned int key)
 		case ACTION_MENU_RIGHT: vk = VK_RIGHT;  break;
 		case ACTION_MENU_X:     vk = 'R';       break;
 		case ACTION_MENU_Y:     vk = VK_TAB;    break;
-		case ACTION_MENU_LEFT_SCROLL:  vk = 'Q'; break;
-		case ACTION_MENU_RIGHT_SCROLL: vk = 'E'; break;
+		case ACTION_MENU_LEFT_SCROLL:  vk = VK_OEM_6; break;
+		case ACTION_MENU_RIGHT_SCROLL: vk = VK_OEM_4; break;
 		case ACTION_MENU_PAGEUP:   vk = VK_PRIOR; break;
 		case ACTION_MENU_PAGEDOWN: vk = VK_NEXT;  break;
 		}
