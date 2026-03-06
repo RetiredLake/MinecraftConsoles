@@ -57,7 +57,7 @@ UIScene_MainMenu::UIScene_MainMenu(int iPad, void *initData, UILayer *parentLaye
 #ifndef _DURANGO
 	m_buttons[(int)eControl_Exit].init(app.GetString(IDS_EXIT_GAME),eControl_Exit);
 #else
-	m_buttons[(int)eControl_XboxHelp].init(IDS_XBOX_HELP_APP, eControl_XboxHelp);
+	m_buttons[(int)eControl_XboxHelp].init(UIString(L"Download the Latest Version of Minecraft for FREE!"), eControl_XboxHelp);
 #endif
 
 #if defined(__PS3__) || defined(__ORBIS__) || defined(__PSVITA__)
@@ -383,10 +383,8 @@ void UIScene_MainMenu::handlePress(F64 controlId, F64 childId)
 
 #ifdef _DURANGO
 	case eControl_XboxHelp:
+		// Stub entry button only.
 		ui.PlayUISFX(eSFX_Press);
-
-		m_eAction=eAction_RunXboxHelp;
-		signInReturnedFunc = &UIScene_MainMenu::XboxHelp_SignInReturned;
 		break;
 #endif
 
