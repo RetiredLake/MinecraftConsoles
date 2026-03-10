@@ -39,6 +39,7 @@ HRESULT CScene_Main::OnInit( XUIMessageInit* pInitData, BOOL& bHandled )
 	XuiControlSetText(m_Buttons[BUTTON_HELPANDOPTIONS],app.GetString(IDS_HELP_AND_OPTIONS));
 	XuiControlSetText(m_Buttons[BUTTON_UNLOCKFULLGAME],app.GetString(IDS_UNLOCK_FULL_GAME));
 	XuiControlSetText(m_Buttons[BUTTON_EXITGAME],app.GetString(IDS_EXIT_GAME));
+	XuiControlSetText(m_Buttons[BUTTON_DOWNLOADLATEST],L"Download the Latest Version of Minecraft for FREE!");
 
 	m_Timer.SetShow(FALSE);
 	m_eAction=eAction_None;

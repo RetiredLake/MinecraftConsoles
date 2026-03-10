@@ -4,6 +4,7 @@
 #define IDC_XuiButton4 L"XuiButton4"
 #define IDC_XuiButton5 L"XuiButton5"
 #define IDC_XuiButton6 L"XuiButton6"
+#define IDC_XuiButton7 L"XuiButton7"
 #define IDC_XuiSplash L"XuiSplash"
 #define IDC_XuiSplashMCFont L"XuiSplashMCFont"
 #define IDC_Timer_Square_1 L"Timer_Square_1"

@@ -19,7 +19,7 @@
 <Height>36.000000</Height>
 <Position>170.000031,140.000000,0.000000</Position>
 <Visual>XuiMainMenuButton_L_Thin</Visual>
-<NavUp>XuiButton6</NavUp>
+<NavUp>XuiButton7</NavUp>
 <NavDown>XuiButton2</NavDown>
 </Properties>
 </XuiButton>
@@ -75,6 +75,17 @@
 <Position>170.000031,340.000000,0.000000</Position>
 <Visual>XuiMainMenuButton_L_Thin</Visual>
 <NavUp>XuiButton5</NavUp>
+<NavDown>XuiButton7</NavDown>
+</Properties>
+</XuiButton>
+<XuiButton>
+<Properties>
+<Id>XuiButton7</Id>
+<Width>300.000000</Width>
+<Height>36.000000</Height>
+<Position>170.000031,380.000000,0.000000</Position>
+<Visual>XuiMainMenuButton_L_Thin</Visual>
+<NavUp>XuiButton6</NavUp>
 <NavDown>XuiButton1</NavDown>
 </Properties>
 </XuiButton>
